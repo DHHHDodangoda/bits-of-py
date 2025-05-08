@@ -1,4 +1,4 @@
-
+# fuction with two parameters 
 def caesar_encrypt(text, shift):
 
     # Define the variables 
@@ -7,6 +7,8 @@ def caesar_encrypt(text, shift):
 
     for char in text.lower():
         if char in alphabet:
+
+            # Add shifting value to the text
             index = (alphabet.index(char) + shift) % len(alphabet)
             result += alphabet[index]
         else:
