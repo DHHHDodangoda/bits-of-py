@@ -1,16 +1,24 @@
 
 def caesar_encrypt(text, shift):
+
+    # Define the variables 
     result = ''
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
     for char in text.lower():
         if char in alphabet:
-            index = (alphabet.index(char) + shift) % 26
+            index = (alphabet.index(char) + shift) % len(alphabet)
             result += alphabet[index]
         else:
-            result += char  # leave spaces and punctuation unchanged
+            
+            # leave spaces and punctuation unchanged
+            result += char  
     return result
 
+# Get the inputs from the user
 text = str(input("Enter the text: "))
-encrypted = caesar_encrypt(text, 3)
+shift = int(input("Enter your shifting value: "))
+
+# Calling the function 
+encrypted = caesar_encrypt(text, shift)
 print("Encrypted text: ", encrypted)
