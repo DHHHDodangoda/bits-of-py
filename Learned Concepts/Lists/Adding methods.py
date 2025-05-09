@@ -17,3 +17,8 @@ print (PrimeryList)
 
 PrimeryList[0] = (42)
 print (PrimeryList)
+
+# Add new list to another list
+
+PrimeryList.extend(SecondaryList)
+print (PrimeryList)
