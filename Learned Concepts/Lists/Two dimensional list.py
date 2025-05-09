@@ -3,6 +3,12 @@
 
 List01 = [[3,5,1],[7,3,9],[6,0,4]]
 
+'''
+3 5 1
+7 3 9    This is how this list displays 
+6 0 4
+'''
+
 # To display values
 
 print(List01[1][2]) # 2nd index in the 1st item / 9
