@@ -5,20 +5,20 @@ SecondaryList = ['item 01' , 'item 02' , 'item 03']
 
 # Adding items to end of the list
 
-PrimeryList.append("Orange")
-print (PrimeryList)
+PrimaryList.append("Orange")
+print (PrimaryList)
 
 # Adding items to a specific index
 
-PrimeryList.insert(2,65) # in this method items dose not replace 
-print (PrimeryList)
+PrimaryList.insert(2,65) # in this method items dose not replace 
+print (PrimaryList)
 
 # replace items in a list
 
-PrimeryList[0] = (42)
-print (PrimeryList)
+PrimaryList[0] = (42)
+print (PrimaryList)
 
 # Add new list to another list
 
-PrimeryList.extend(SecondaryList)
-print (PrimeryList)
+PrimaryList.extend(SecondaryList)
+print (PrimaryList)
