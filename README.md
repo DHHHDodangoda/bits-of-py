@@ -1,10 +1,10 @@
-🐍 Python Trove
+##🐍 Python Trove
 
 A curated collection of everything I learn while mastering Python — from syntax basics and data structures to algorithms, libraries, mini-projects, and real-world problem solving.
 
 ⸻
 
-📌 Purpose
+##📌 Purpose
 
 This repository is my personal Python learning archive, built to:
 
@@ -17,7 +17,7 @@ Whether you’re just starting or reviewing Python, feel free to browse, clone, 
 
 ⸻
 
-🚀 Tech Stack 
+##🚀 Tech Stack 
 
 - Python 3.x
 - VS Code / Terminal
@@ -26,4 +26,4 @@ Whether you’re just starting or reviewing Python, feel free to browse, clone, 
 
 🧠 Note
 
-This repo is an evolving space. It’s not meant to be perfect — it’s meant to reflect progress, not perfection.
+This repo is an evolving space. It’s not meant to be perfect — **it’s meant to reflect progress, not perfection.**
