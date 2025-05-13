@@ -11,3 +11,17 @@ for i in range(0,10):
 print("done!")
 #print done! when the loop ends
 
+'''
+-for loop with lists-
+
+for x in listname:
+  print(x)
+                this will take list items one by one and assing it to x ;)
+'''
+
+list01 =  ["amali",84,54.658,'Dasun']
+
+for x in list01:
+  print(x)
+print("Done!")
+# Print done! when the loop ends
