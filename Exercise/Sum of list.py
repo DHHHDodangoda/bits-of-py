@@ -1,12 +1,12 @@
 # Define the list of numbers
-puca = [5, 10, 2, 4, 20]
+List01 = [5, 10, 2, 4, 20]
 
 # Initialize the sum to 0
 total_sum = 0
 i=0
 
 # Iterate through each number in the list and add it to the total sum
-for i in puca:
+for i in List01:
     total_sum = total_sum + i
 
 # Print the result
