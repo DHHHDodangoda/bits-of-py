@@ -7,3 +7,7 @@ def add(a, b):
 # Define a function to subtract second number from first
 def subtract(a, b):
     return a - b
+
+# Define a function to multiply two numbers
+def multiply(a, b):
+    return a * b
