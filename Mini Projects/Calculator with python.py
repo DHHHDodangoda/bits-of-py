@@ -25,3 +25,10 @@ def power(a, b):
 # Define a function to get modulus of a by b
 def modulus(a, b):
     return a % b
+
+# Define a function to compute square root
+def square_root(a):
+    if a < 0:
+        return "Error: Cannot take square root of negative number"  # Handle invalid input
+    return math.sqrt(a)
+    
