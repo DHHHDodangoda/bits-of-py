@@ -11,3 +11,9 @@ def subtract(a, b):
 # Define a function to multiply two numbers
 def multiply(a, b):
     return a * b
+    
+# Define a function to divide first number by second
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero"  # Handle division by zero
+    return a / b
