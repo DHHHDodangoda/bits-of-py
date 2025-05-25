@@ -55,7 +55,6 @@ def run_calculator():
         if not parts:
             continue  # Skip empty input
 
-
         cmd = parts[0]  # First part is the command
         args = parts[1:]  # Remaining parts are arguments
 
