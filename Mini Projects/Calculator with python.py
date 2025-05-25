@@ -32,3 +32,10 @@ def square_root(a):
         return "Error: Cannot take square root of negative number"  # Handle invalid input
     return math.sqrt(a)
     
+# Define a function to compute factorial of a number
+def factorial(n):
+    if n < 0:
+        return "Error: Cannot compute factorial of negative number"  # Handle negative input
+    if not float(n).is_integer():
+        return "Error: Factorial is only defined for integers"  # Factorial must be an integer
+    return math.factorial(int(n))  # Convert float to int before computing
