@@ -50,3 +50,7 @@ def run_calculator():
         if user_input == "exit":
             print("Goodbye!")  # Exit message
             break  # Exit loop and terminate
+
+        parts = user_input.split()  # Split the input into command and arguments
+        if not parts:
+            continue  # Skip empty input
