@@ -54,3 +54,30 @@ def run_calculator():
         parts = user_input.split()  # Split the input into command and arguments
         if not parts:
             continue  # Skip empty input
+
+
+        cmd = parts[0]  # First part is the command
+        args = parts[1:]  # Remaining parts are arguments
+
+        try:
+            # Match command with expected operations and number of arguments
+            if cmd == "add" and len(args) == 2:
+                print(add(float(args[0]), float(args[1])))
+            elif cmd == "subtract" and len(args) == 2:
+                print(subtract(float(args[0]), float(args[1])))
+            elif cmd == "multiply" and len(args) == 2:
+                print(multiply(float(args[0]), float(args[1])))
+            elif cmd == "divide" and len(args) == 2:
+                print(divide(float(args[0]), float(args[1])))
+            elif cmd == "power" and len(args) == 2:
+                print(power(float(args[0]), float(args[1])))
+            elif cmd == "modulus" and len(args) == 2:
+                print(modulus(float(args[0]), float(args[1])))
+            elif cmd == "square_root" and len(args) == 1:
+                print(square_root(float(args[0])))
+            elif cmd == "factorial" and len(args) == 1:
+                print(factorial(float(args[0])))
+            else:
+                print("Invalid command or wrong number of arguments.")  # Catch invalid commands
+        except ValueError:
+            print("Error: Please enter valid numeric values.")  # Handle non-numeric input
