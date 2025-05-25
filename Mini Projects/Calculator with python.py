@@ -44,3 +44,9 @@ def factorial(n):
 def run_calculator():
     print("=========== Calculator ===========")  # Welcome message
     print("Available operations: add, subtract, multiply, divide, power, modulus, square_root, factorial\n(type 'exit' to quit)")
+    
+    while True:  # Start a loop to read commands from user
+        user_input = input("> ").strip().lower()  # Read input, remove leading/trailing spaces, convert to lowercase
+        if user_input == "exit":
+            print("Goodbye!")  # Exit message
+            break  # Exit loop and terminate
