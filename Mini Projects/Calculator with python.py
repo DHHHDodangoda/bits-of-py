@@ -39,3 +39,8 @@ def factorial(n):
     if not float(n).is_integer():
         return "Error: Factorial is only defined for integers"  # Factorial must be an integer
     return math.factorial(int(n))  # Convert float to int before computing
+
+# Main function to run the calculator
+def run_calculator():
+    print("=========== Calculator ===========")  # Welcome message
+    print("Available operations: add, subtract, multiply, divide, power, modulus, square_root, factorial\n(type 'exit' to quit)")
