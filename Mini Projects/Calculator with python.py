@@ -81,3 +81,7 @@ def run_calculator():
                 print("Invalid command or wrong number of arguments.")  # Catch invalid commands
         except ValueError:
             print("Error: Please enter valid numeric values.")  # Handle non-numeric input
+
+# Entry point for the script
+if __name__ == "__main__":
+    run_calculator()
