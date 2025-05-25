@@ -21,3 +21,7 @@ def divide(a, b):
 # Define a function to raise a to the power of b
 def power(a, b):
     return a ** b
+
+# Define a function to get modulus of a by b
+def modulus(a, b):
+    return a % b
