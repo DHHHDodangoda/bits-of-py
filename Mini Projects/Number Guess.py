@@ -1,0 +1,1 @@
+print("Think of a number between 1 and 100. I will try to guess it!")
