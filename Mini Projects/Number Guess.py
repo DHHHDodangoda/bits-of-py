@@ -2,6 +2,8 @@
 # This program allows the computer to guess a number that the user is thinking of
 # The user provides feedback on whether the guess is too high, too low, or correct
 print("Think of a number between 1 and 100. I will try to guess it!")
+
+# Initialize the range for guessing
 low = 1
 high = 100
 attempts = 0
