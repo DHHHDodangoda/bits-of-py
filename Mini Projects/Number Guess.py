@@ -8,9 +8,12 @@ low = 1
 high = 100
 attempts = 0
 
+# Start the guessing loop
 while True:
     guess = (low + high) // 2
     attempts += 1
+
+    # Provide feedback on the guess
     print(f"My guess is {guess}.")
     feedback = input("Is it (h)igher, (l)ower, or (c)orrect? ").strip().lower()
     if feedback == 'c':
