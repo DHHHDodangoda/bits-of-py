@@ -18,3 +18,16 @@ def generate_password(length=12, use_uppercase=True, use_numbers=True, use_speci
     # Generate a random password
     password = ''.join(random.choice(characters) for _ in range(length))
     return password
+# Main function to run the password generator
+def main():
+    print("Welcome to the Password Generator!")
+    
+    # Get user preferences
+    length = int(input("Enter the desired password length (default is 12): ") or 12)
+    use_uppercase = input("Include uppercase letters? (y/n, default is y): ").strip().lower() != 'n'
+    use_numbers = input("Include numbers? (y/n, default is y): ").strip().lower() != 'n'
+    use_special_chars = input("Include special characters? (y/n, default is y): ").strip().lower() != 'n'
+
+    # Generate and display the password
+    password = generate_password(length, use_uppercase, use_numbers, use_special_chars)
+    print(f"Your generated password is: {password}")
