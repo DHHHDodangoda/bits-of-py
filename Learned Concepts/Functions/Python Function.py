@@ -6,3 +6,10 @@ def my_function():
 # Calling the function
 my_function()
 
+# fuction with parameters
+def greet(name):
+    print(f"Hello, {name}!\n")
+    print("Welcome to the world of Python functions.\n")
+
+# Calling the function with an argument
+greet("Hivin")
