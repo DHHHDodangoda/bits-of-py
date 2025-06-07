@@ -32,6 +32,6 @@ def main():
     password = generate_password(length, use_uppercase, use_numbers, use_special_chars)
     print(f"Your generated password is: {password}")
 
-
+# Run the main function if this script is executed
 if __name__ == "__main__":
     main()
