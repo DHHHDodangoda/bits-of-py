@@ -1,6 +1,5 @@
 # A password generator
 
-
 #importing necessary libraries
 import random
 import string
